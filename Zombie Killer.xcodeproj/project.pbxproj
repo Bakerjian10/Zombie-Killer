@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73D25F3A14F2D5BB00338B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F3914F2D5BB00338B13 /* UIKit.framework */; };
+		73D25F3C14F2D5BB00338B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F3B14F2D5BB00338B13 /* Foundation.framework */; };
+		73D25F3E14F2D5BB00338B13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F3D14F2D5BB00338B13 /* CoreGraphics.framework */; };
+		73D25F4014F2D5BB00338B13 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F3F14F2D5BB00338B13 /* GLKit.framework */; };
+		73D25F4214F2D5BB00338B13 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F4114F2D5BB00338B13 /* OpenGLES.framework */; };
+		73D25F4814F2D5BB00338B13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73D25F4614F2D5BB00338B13 /* InfoPlist.strings */; };
+		73D25F4A14F2D5BB00338B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D25F4914F2D5BB00338B13 /* main.m */; };
+		73D25F4E14F2D5BB00338B13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D25F4D14F2D5BB00338B13 /* AppDelegate.m */; };
+		73D25F5114F2D5BB00338B13 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D25F4F14F2D5BB00338B13 /* MainStoryboard_iPhone.storyboard */; };
+		73D25F5414F2D5BB00338B13 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D25F5214F2D5BB00338B13 /* MainStoryboard_iPad.storyboard */; };
+		73D25F5614F2D5BB00338B13 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 73D25F5514F2D5BB00338B13 /* Shader.fsh */; };
+		73D25F5814F2D5BB00338B13 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 73D25F5714F2D5BB00338B13 /* Shader.vsh */; };
+		73D25F5B14F2D5BB00338B13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D25F5A14F2D5BB00338B13 /* ViewController.m */; };
+		73D25F6314F2D5BB00338B13 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F6214F2D5BB00338B13 /* SenTestingKit.framework */; };
+		73D25F6414F2D5BB00338B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F3914F2D5BB00338B13 /* UIKit.framework */; };
+		73D25F6514F2D5BB00338B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D25F3B14F2D5BB00338B13 /* Foundation.framework */; };
+		73D25F6D14F2D5BB00338B13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73D25F6B14F2D5BB00338B13 /* InfoPlist.strings */; };
+		73D25F7014F2D5BB00338B13 /* Zombie_KillerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D25F6F14F2D5BB00338B13 /* Zombie_KillerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73D25F6614F2D5BB00338B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73D25F2C14F2D5BB00338B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73D25F3414F2D5BB00338B13;
+			remoteInfo = "Zombie Killer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73D25F3514F2D5BB00338B13 /* Zombie Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D25F3914F2D5BB00338B13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73D25F3B14F2D5BB00338B13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73D25F3D14F2D5BB00338B13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73D25F3F14F2D5BB00338B13 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		73D25F4114F2D5BB00338B13 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		73D25F4514F2D5BB00338B13 /* Zombie Killer-Info.plist */ = {isa = PBXFileReference; path = "Zombie Killer-Info.plist"; sourceTree = "<group>"; };
+		73D25F4714F2D5BB00338B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73D25F4914F2D5BB00338B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73D25F4B14F2D5BB00338B13 /* Zombie Killer-Prefix.pch */ = {isa = PBXFileReference; path = "Zombie Killer-Prefix.pch"; sourceTree = "<group>"; };
+		73D25F4C14F2D5BB00338B13 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		73D25F4D14F2D5BB00338B13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73D25F5014F2D5BB00338B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		73D25F5314F2D5BB00338B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		73D25F5514F2D5BB00338B13 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		73D25F5714F2D5BB00338B13 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		73D25F5914F2D5BB00338B13 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		73D25F5A14F2D5BB00338B13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73D25F6114F2D5BB00338B13 /* Zombie KillerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zombie KillerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D25F6214F2D5BB00338B13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		73D25F6A14F2D5BB00338B13 /* Zombie KillerTests-Info.plist */ = {isa = PBXFileReference; path = "Zombie KillerTests-Info.plist"; sourceTree = "<group>"; };
+		73D25F6C14F2D5BB00338B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73D25F6E14F2D5BB00338B13 /* Zombie_KillerTests.h */ = {isa = PBXFileReference; path = Zombie_KillerTests.h; sourceTree = "<group>"; };
+		73D25F6F14F2D5BB00338B13 /* Zombie_KillerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zombie_KillerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73D25F3214F2D5BB00338B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D25F3A14F2D5BB00338B13 /* UIKit.framework in Frameworks */,
+				73D25F3C14F2D5BB00338B13 /* Foundation.framework in Frameworks */,
+				73D25F3E14F2D5BB00338B13 /* CoreGraphics.framework in Frameworks */,
+				73D25F4014F2D5BB00338B13 /* GLKit.framework in Frameworks */,
+				73D25F4214F2D5BB00338B13 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D25F5D14F2D5BB00338B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D25F6314F2D5BB00338B13 /* SenTestingKit.framework in Frameworks */,
+				73D25F6414F2D5BB00338B13 /* UIKit.framework in Frameworks */,
+				73D25F6514F2D5BB00338B13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73D25F2A14F2D5BB00338B13 = {
+			isa = PBXGroup;
+			children = (
+				73D25F4314F2D5BB00338B13 /* Zombie Killer */,
+				73D25F6814F2D5BB00338B13 /* Zombie KillerTests */,
+				73D25F3814F2D5BB00338B13 /* Frameworks */,
+				73D25F3614F2D5BB00338B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73D25F3614F2D5BB00338B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73D25F3514F2D5BB00338B13 /* Zombie Killer.app */,
+				73D25F6114F2D5BB00338B13 /* Zombie KillerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73D25F3814F2D5BB00338B13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73D25F3914F2D5BB00338B13 /* UIKit.framework */,
+				73D25F3B14F2D5BB00338B13 /* Foundation.framework */,
+				73D25F3D14F2D5BB00338B13 /* CoreGraphics.framework */,
+				73D25F3F14F2D5BB00338B13 /* GLKit.framework */,
+				73D25F4114F2D5BB00338B13 /* OpenGLES.framework */,
+				73D25F6214F2D5BB00338B13 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73D25F4314F2D5BB00338B13 /* Zombie Killer */ = {
+			isa = PBXGroup;
+			children = (
+				73D25F4C14F2D5BB00338B13 /* AppDelegate.h */,
+				73D25F4D14F2D5BB00338B13 /* AppDelegate.m */,
+				73D25F4F14F2D5BB00338B13 /* MainStoryboard_iPhone.storyboard */,
+				73D25F5214F2D5BB00338B13 /* MainStoryboard_iPad.storyboard */,
+				73D25F5514F2D5BB00338B13 /* Shader.fsh */,
+				73D25F5714F2D5BB00338B13 /* Shader.vsh */,
+				73D25F5914F2D5BB00338B13 /* ViewController.h */,
+				73D25F5A14F2D5BB00338B13 /* ViewController.m */,
+				73D25F4414F2D5BB00338B13 /* Supporting Files */,
+			);
+			path = "Zombie Killer";
+			sourceTree = "<group>";
+		};
+		73D25F4414F2D5BB00338B13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73D25F4514F2D5BB00338B13 /* Zombie Killer-Info.plist */,
+				73D25F4614F2D5BB00338B13 /* InfoPlist.strings */,
+				73D25F4914F2D5BB00338B13 /* main.m */,
+				73D25F4B14F2D5BB00338B13 /* Zombie Killer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73D25F6814F2D5BB00338B13 /* Zombie KillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				73D25F6E14F2D5BB00338B13 /* Zombie_KillerTests.h */,
+				73D25F6F14F2D5BB00338B13 /* Zombie_KillerTests.m */,
+				73D25F6914F2D5BB00338B13 /* Supporting Files */,
+			);
+			path = "Zombie KillerTests";
+			sourceTree = "<group>";
+		};
+		73D25F6914F2D5BB00338B13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73D25F6A14F2D5BB00338B13 /* Zombie KillerTests-Info.plist */,
+				73D25F6B14F2D5BB00338B13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73D25F3414F2D5BB00338B13 /* Zombie Killer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73D25F7314F2D5BB00338B13 /* Build configuration list for PBXNativeTarget "Zombie Killer" */;
+			buildPhases = (
+				73D25F3114F2D5BB00338B13 /* Sources */,
+				73D25F3214F2D5BB00338B13 /* Frameworks */,
+				73D25F3314F2D5BB00338B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zombie Killer";
+			productName = "Zombie Killer";
+			productReference = 73D25F3514F2D5BB00338B13 /* Zombie Killer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73D25F6014F2D5BB00338B13 /* Zombie KillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73D25F7614F2D5BB00338B13 /* Build configuration list for PBXNativeTarget "Zombie KillerTests" */;
+			buildPhases = (
+				73D25F5C14F2D5BB00338B13 /* Sources */,
+				73D25F5D14F2D5BB00338B13 /* Frameworks */,
+				73D25F5E14F2D5BB00338B13 /* Resources */,
+				73D25F5F14F2D5BB00338B13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73D25F6714F2D5BB00338B13 /* PBXTargetDependency */,
+			);
+			name = "Zombie KillerTests";
+			productName = "Zombie KillerTests";
+			productReference = 73D25F6114F2D5BB00338B13 /* Zombie KillerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73D25F2C14F2D5BB00338B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Michigan State University ";
+			};
+			buildConfigurationList = 73D25F2F14F2D5BB00338B13 /* Build configuration list for PBXProject "Zombie Killer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73D25F2A14F2D5BB00338B13;
+			productRefGroup = 73D25F3614F2D5BB00338B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73D25F3414F2D5BB00338B13 /* Zombie Killer */,
+				73D25F6014F2D5BB00338B13 /* Zombie KillerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73D25F3314F2D5BB00338B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D25F4814F2D5BB00338B13 /* InfoPlist.strings in Resources */,
+				73D25F5114F2D5BB00338B13 /* MainStoryboard_iPhone.storyboard in Resources */,
+				73D25F5414F2D5BB00338B13 /* MainStoryboard_iPad.storyboard in Resources */,
+				73D25F5614F2D5BB00338B13 /* Shader.fsh in Resources */,
+				73D25F5814F2D5BB00338B13 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D25F5E14F2D5BB00338B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D25F6D14F2D5BB00338B13 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73D25F5F14F2D5BB00338B13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73D25F3114F2D5BB00338B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D25F4A14F2D5BB00338B13 /* main.m in Sources */,
+				73D25F4E14F2D5BB00338B13 /* AppDelegate.m in Sources */,
+				73D25F5B14F2D5BB00338B13 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D25F5C14F2D5BB00338B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D25F7014F2D5BB00338B13 /* Zombie_KillerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73D25F6714F2D5BB00338B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73D25F3414F2D5BB00338B13 /* Zombie Killer */;
+			targetProxy = 73D25F6614F2D5BB00338B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73D25F4614F2D5BB00338B13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73D25F4714F2D5BB00338B13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73D25F4F14F2D5BB00338B13 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73D25F5014F2D5BB00338B13 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		73D25F5214F2D5BB00338B13 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73D25F5314F2D5BB00338B13 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		73D25F6B14F2D5BB00338B13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73D25F6C14F2D5BB00338B13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73D25F7114F2D5BB00338B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73D25F7214F2D5BB00338B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73D25F7414F2D5BB00338B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Killer/Zombie Killer-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Zombie Killer/Zombie Killer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73D25F7514F2D5BB00338B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Killer/Zombie Killer-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Zombie Killer/Zombie Killer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		73D25F7714F2D5BB00338B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zombie Killer.app/Zombie Killer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Killer/Zombie Killer-Prefix.pch";
+				INFOPLIST_FILE = "Zombie KillerTests/Zombie KillerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		73D25F7814F2D5BB00338B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zombie Killer.app/Zombie Killer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Killer/Zombie Killer-Prefix.pch";
+				INFOPLIST_FILE = "Zombie KillerTests/Zombie KillerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73D25F2F14F2D5BB00338B13 /* Build configuration list for PBXProject "Zombie Killer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D25F7114F2D5BB00338B13 /* Debug */,
+				73D25F7214F2D5BB00338B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73D25F7314F2D5BB00338B13 /* Build configuration list for PBXNativeTarget "Zombie Killer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D25F7414F2D5BB00338B13 /* Debug */,
+				73D25F7514F2D5BB00338B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73D25F7614F2D5BB00338B13 /* Build configuration list for PBXNativeTarget "Zombie KillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73D25F7714F2D5BB00338B13 /* Debug */,
+				73D25F7814F2D5BB00338B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73D25F2C14F2D5BB00338B13 /* Project object */;
+}
